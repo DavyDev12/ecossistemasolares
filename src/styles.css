@@ -143,3 +143,21 @@
     color: var(--color-foreground);
   }
 }
+
+@theme inline {
+  --color-brand-dark: #0A2342;
+  --color-brand-light: #2FA4FF;
+}
+
+:root {
+  --brand-dark: #0A2342;
+  --brand-light: #2FA4FF;
+  --gradient-brand: linear-gradient(135deg, #0A2342 0%, #143a6b 60%, #2FA4FF 100%);
+  --gradient-hero: linear-gradient(120deg, rgba(10,35,66,0.92) 0%, rgba(10,35,66,0.65) 50%, rgba(47,164,255,0.45) 100%);
+  --shadow-brand: 0 20px 50px -20px rgba(10, 35, 66, 0.35);
+  --shadow-card: 0 10px 30px -15px rgba(10, 35, 66, 0.25);
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 500; }
+h1,h2,h3,h4 { font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; font-weight: 800; letter-spacing: -0.02em; }
