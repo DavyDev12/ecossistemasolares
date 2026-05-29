@@ -59,10 +59,10 @@ function LandingPage() {
   ];
 
   const indicators = [
-    "+800 Sistemas Instalados",
+    "+800 Sistemas Eco Instalados",
     "Atendimento em Todo Ceará",
     "Energia Limpa e Sustentável",
-    "Projeto Personalizado",
+    "Projeto Eco Sob Medida",
   ];
 
   return (
@@ -91,16 +91,16 @@ function LandingPage() {
         <div className="relative mx-auto max-w-7xl px-6 pt-36 pb-24 md:pt-44 md:pb-32">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-2 text-xs font-bold uppercase tracking-wider text-white border border-white/20">
-              <Sun className="h-4 w-4" /> Energia Solar Premium no Ceará
+              <Sun className="h-4 w-4" /> Eco Sistema Solares • Energia Solar no Ceará
             </div>
             <h1 className="mt-6 text-5xl md:text-7xl font-extrabold leading-[1.05] text-white">
-              Economize Até <span className="bg-gradient-to-r from-[#2FA4FF] to-[#7FCBFF] bg-clip-text text-transparent">70%</span> na Sua Conta de Energia
+              Economize Até <span className="bg-gradient-to-r from-[#2FA4FF] to-[#7FCBFF] bg-clip-text text-transparent">70%</span> com a Eco Sistema Solares
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/90 max-w-2xl font-medium leading-relaxed">
-              Mais de 800 sistemas instalados levando economia, valorização e sustentabilidade para residências e empresas em todo o Ceará.
+              A Eco Sistema Solares já instalou mais de 800 sistemas fotovoltaicos, levando economia, valorização e sustentabilidade para residências e empresas em todo o Ceará.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <CTAButton>Solicitar Orçamento</CTAButton>
+              <CTAButton>Solicitar Simulação Gratuita</CTAButton>
             </div>
             <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4">
               {indicators.map((i) => (
@@ -117,11 +117,15 @@ function LandingPage() {
       {/* BENEFITS */}
       <section className="py-24 md:py-32 bg-background">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="text-center max-w-2xl mx-auto">
-            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[color:var(--brand-light)]">Benefícios</span>
+          <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
+            <img src={logo} alt="Eco Sistema Solares" className="h-16 w-auto mb-6" />
+            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[color:var(--brand-light)]">Por que a Eco Sistema Solares</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[color:var(--brand-dark)]">
               Por que investir em <span className="text-[color:var(--brand-light)]">Energia Solar?</span>
             </h2>
+            <p className="mt-4 text-base md:text-lg text-muted-foreground font-medium">
+              Na Eco Sistema Solares, transformamos sua conta de luz em economia real, com projetos sob medida e equipamentos premium.
+            </p>
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {benefits.map(({ icon: Icon, title, desc }) => (
@@ -135,7 +139,7 @@ function LandingPage() {
             ))}
           </div>
           <div className="mt-14 flex justify-center">
-            <CTAButton>Quero Economizar</CTAButton>
+            <CTAButton>Falar com a Eco Sistema Solares</CTAButton>
           </div>
         </div>
       </section>
@@ -145,9 +149,9 @@ function LandingPage() {
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, white 1px, transparent 1px), radial-gradient(circle at 80% 70%, white 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
         <div className="relative mx-auto max-w-7xl px-6">
           <div className="text-center max-w-2xl mx-auto">
-            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[#7FCBFF]">Processo</span>
+            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[#7FCBFF]">Como Funciona</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-white">
-              Seu Projeto em <span className="text-[#2FA4FF]">4 Passos</span>
+              Seu Projeto com a Eco Sistema Solares em <span className="text-[#2FA4FF]">4 Passos</span>
             </h2>
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -160,9 +164,9 @@ function LandingPage() {
             ))}
           </div>
 
-          <div className="mt-16 rounded-3xl bg-white/10 backdrop-blur border border-white/20 px-8 py-8 md:py-10 flex flex-col md:flex-row items-center justify-center gap-4 text-center">
-            <Sun className="h-10 w-10 text-[#7FCBFF]" />
-            <p className="text-2xl md:text-3xl font-extrabold text-white">+800 Sistemas Instalados com Sucesso</p>
+          <div className="mt-16 rounded-3xl bg-white/10 backdrop-blur border border-white/20 px-8 py-8 md:py-10 flex flex-col md:flex-row items-center justify-center gap-6 text-center">
+            <img src={logo} alt="Eco Sistema Solares" className="h-16 w-auto brightness-0 invert" />
+            <p className="text-2xl md:text-3xl font-extrabold text-white">+800 Sistemas Instalados pela Eco Sistema Solares</p>
           </div>
 
           <div className="mt-12 flex justify-center">
@@ -174,11 +178,12 @@ function LandingPage() {
       {/* FINAL CTA */}
       <section className="py-24 md:py-32 bg-background">
         <div className="mx-auto max-w-4xl px-6 text-center">
+          <img src={logo} alt="Eco Sistema Solares" className="h-20 w-auto mx-auto mb-8" />
           <h2 className="text-4xl md:text-6xl font-extrabold text-[color:var(--brand-dark)] leading-[1.05]">
-            Pronto para Produzir <span className="text-[color:var(--brand-light)]">Sua Própria Energia?</span>
+            Produza Sua Própria Energia com a <span className="text-[color:var(--brand-light)]">Eco Sistema Solares</span>
           </h2>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground font-medium max-w-2xl mx-auto">
-            Solicite uma simulação gratuita e descubra quanto você pode economizar todos os meses.
+            Solicite agora uma simulação gratuita com a Eco Sistema Solares e descubra quanto você pode economizar todos os meses.
           </p>
           <div className="mt-10 flex justify-center">
             <CTAButton>Solicitar Simulação Gratuita</CTAButton>
