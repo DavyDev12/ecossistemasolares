@@ -8,9 +8,9 @@ const WHATSAPP_URL = "https://wa.me/5585986446487?text=Ol%C3%A1%2C%20gostaria%20
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ecossistema Solares | Energia Solar no Ceará" },
+      { title: "Eco Sistema Solares | Energia Solar no Ceará" },
       { name: "description", content: "Mais de 800 sistemas instalados. Solicite uma simulação gratuita e descubra quanto você pode economizar com energia solar." },
-      { property: "og:title", content: "Ecossistema Solares | Energia Solar no Ceará" },
+      { property: "og:title", content: "Eco Sistema Solares | Energia Solar no Ceará" },
       { property: "og:description", content: "Mais de 800 sistemas instalados. Solicite uma simulação gratuita e descubra quanto você pode economizar com energia solar." },
       { property: "og:type", content: "website" },
     ],
@@ -70,7 +70,7 @@ function LandingPage() {
       {/* NAV */}
       <header className="absolute top-0 left-0 right-0 z-20">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <img src={logo} alt="Ecossistema Solares" className="h-12 w-auto md:h-14 brightness-0 invert" />
+          <img src={logo} alt="Eco Sistema Solares" className="h-12 w-auto md:h-14 brightness-0 invert" />
           <a
             href={WHATSAPP_URL}
             target="_blank"
@@ -94,7 +94,7 @@ function LandingPage() {
               <Sun className="h-4 w-4" /> Energia Solar Premium no Ceará
             </div>
             <h1 className="mt-6 text-5xl md:text-7xl font-extrabold leading-[1.05] text-white">
-              Economize Até <span className="bg-gradient-to-r from-[#2FA4FF] to-[#7FCBFF] bg-clip-text text-transparent">95%</span> na Sua Conta de Energia
+              Economize Até <span className="bg-gradient-to-r from-[#2FA4FF] to-[#7FCBFF] bg-clip-text text-transparent">70%</span> na Sua Conta de Energia
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/90 max-w-2xl font-medium leading-relaxed">
               Mais de 800 sistemas instalados levando economia, valorização e sustentabilidade para residências e empresas em todo o Ceará.
@@ -210,9 +210,9 @@ function LandingPage() {
       {/* FOOTER */}
       <footer className="bg-[color:var(--brand-dark)] text-white py-10">
         <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <img src={logo} alt="Ecossistema Solares" className="h-10 w-auto brightness-0 invert" />
+          <img src={logo} alt="Eco Sistema Solares" className="h-10 w-auto brightness-0 invert" />
           <p className="text-sm font-bold flex items-center gap-2 text-white/80">
-            <MapPin className="h-4 w-4" /> Ecossistema Solares • Atendimento em Todo Ceará
+            <MapPin className="h-4 w-4" /> Eco Sistema Solares • Atendimento em Todo Ceará
           </p>
         </div>
       </footer>
