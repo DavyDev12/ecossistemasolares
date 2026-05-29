@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ECOSISTEMAS SOLARES" },
+      { name: "description", content: "Landing page for Ecossistema Solares, showcasing solar energy benefits and driving conversions." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ECOSISTEMAS SOLARES" },
+      { property: "og:description", content: "Landing page for Ecossistema Solares, showcasing solar energy benefits and driving conversions." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ECOSISTEMAS SOLARES" },
+      { name: "twitter:description", content: "Landing page for Ecossistema Solares, showcasing solar energy benefits and driving conversions." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ce086875-bb00-479e-945e-7afa3c8f5e9a/id-preview-2258f967--14914dd3-dcc9-4a10-b619-9830f74c401e.lovable.app-1780065650807.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ce086875-bb00-479e-945e-7afa3c8f5e9a/id-preview-2258f967--14914dd3-dcc9-4a10-b619-9830f74c401e.lovable.app-1780065650807.png" },
     ],
     links: [
       {
