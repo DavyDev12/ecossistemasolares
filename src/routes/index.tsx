@@ -94,7 +94,7 @@ function LandingPage() {
               <Sun className="h-4 w-4" /> Eco Sistema Solares • Energia Solar no Ceará
             </div>
             <h1 className="mt-6 text-5xl md:text-7xl font-extrabold leading-[1.05] text-white">
-              Economize Até <span className="bg-gradient-to-r from-[#2FA4FF] to-[#7FCBFF] bg-clip-text text-transparent">70%</span> com a Eco Sistema Solares
+              Economize até 70% com energia solar
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/90 max-w-2xl font-medium leading-relaxed">
               A Eco Sistema Solares já instalou mais de 800 sistemas fotovoltaicos, levando economia, valorização e sustentabilidade para residências e empresas em todo o Ceará.
@@ -124,7 +124,7 @@ function LandingPage() {
               Por que investir em <span className="text-[color:var(--brand-light)]">Energia Solar?</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-muted-foreground font-medium">
-              Na Eco Sistema Solares, transformamos sua conta de luz em economia real, com projetos sob medida e equipamentos premium.
+              Transformamos sua conta de luz em economia real, com projetos sob medida e equipamentos premium.
             </p>
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -150,8 +150,8 @@ function LandingPage() {
         <div className="relative mx-auto max-w-7xl px-6">
           <div className="text-center max-w-2xl mx-auto">
             <span className="text-sm font-bold uppercase tracking-[0.2em] text-[#7FCBFF]">Como Funciona</span>
-            <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-white">
-              Seu Projeto com a Eco Sistema Solares em <span className="text-[#2FA4FF]">4 Passos</span>
+            <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-white whitespace-pre-line">
+              Seu Projeto com&nbsp; a gente&nbsp;{"\n"}em 4 Passos
             </h2>
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
