@@ -70,7 +70,7 @@ function LandingPage() {
       {/* NAV */}
       <header className="absolute top-0 left-0 right-0 z-20">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <img src={logo} alt="Eco Sistema Solares" className="h-12 w-auto md:h-14 brightness-0 invert" />
+          <img src={logo} alt="Eco Sistema Solares" className="h-16 w-auto md:h-20 brightness-0 invert" />
           <a
             href={WHATSAPP_URL}
             target="_blank"
@@ -118,7 +118,7 @@ function LandingPage() {
       <section className="py-24 md:py-32 bg-background">
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
-            <img src={logo} alt="Eco Sistema Solares" className="h-16 w-auto mb-6" />
+            <img src={logo} alt="Eco Sistema Solares" className="h-24 w-auto mb-6" />
             <span className="text-sm font-bold uppercase tracking-[0.2em] text-[color:var(--brand-light)]">Por que a Eco Sistema Solares</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[color:var(--brand-dark)]">
               Por que investir em <span className="text-[color:var(--brand-light)]">Energia Solar?</span>
@@ -165,7 +165,7 @@ function LandingPage() {
           </div>
 
           <div className="mt-16 rounded-3xl bg-white/10 backdrop-blur border border-white/20 px-8 py-8 md:py-10 flex flex-col md:flex-row items-center justify-center gap-6 text-center">
-            <img src={logo} alt="Eco Sistema Solares" className="h-16 w-auto brightness-0 invert" />
+            <img src={logo} alt="Eco Sistema Solares" className="h-24 w-auto brightness-0 invert" />
             <p className="text-2xl md:text-3xl font-extrabold text-white">+800 Sistemas Instalados pela Eco Sistema Solares</p>
           </div>
 
@@ -178,7 +178,7 @@ function LandingPage() {
       {/* FINAL CTA */}
       <section className="py-24 md:py-32 bg-background">
         <div className="mx-auto max-w-4xl px-6 text-center">
-          <img src={logo} alt="Eco Sistema Solares" className="h-20 w-auto mx-auto mb-8" />
+          <img src={logo} alt="Eco Sistema Solares" className="h-28 w-auto mx-auto mb-8" />
           <h2 className="text-4xl md:text-6xl font-extrabold text-[color:var(--brand-dark)] leading-[1.05]">
             Produza Sua Própria Energia com a <span className="text-[color:var(--brand-light)]">Eco Sistema Solares</span>
           </h2>
@@ -215,7 +215,7 @@ function LandingPage() {
       {/* FOOTER */}
       <footer className="bg-[color:var(--brand-dark)] text-white py-10">
         <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <img src={logo} alt="Eco Sistema Solares" className="h-10 w-auto brightness-0 invert" />
+          <img src={logo} alt="Eco Sistema Solares" className="h-14 w-auto brightness-0 invert" />
           <p className="text-sm font-bold flex items-center gap-2 text-white/80">
             <MapPin className="h-4 w-4" /> Eco Sistema Solares • Atendimento em Todo Ceará
           </p>
