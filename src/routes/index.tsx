@@ -180,16 +180,15 @@ function LandingPage() {
       <section className="py-24 md:py-32 bg-background">
         <div className="mx-auto max-w-6xl px-6">
           <div className="text-center max-w-2xl mx-auto">
-            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[color:var(--brand-light)]">Satisfação Garantida</span>
-            <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[color:var(--brand-dark)]">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-[color:var(--brand-dark)]">
               Clientes <span className="text-[color:var(--brand-light)]">Satisfeitos</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-muted-foreground font-medium">
               Centenas de famílias e empresas em todo o Ceará já economizam com a Eco Sistema Solares.
             </p>
           </div>
-          <div className="mt-14 rounded-3xl bg-white border border-slate-100 shadow-[var(--shadow-card)] p-6 md:p-10">
-            <img src={clientesSatisfeitos.url} alt="Clientes satisfeitos da Eco Sistema Solares" className="w-full h-auto rounded-2xl" loading="lazy" />
+          <div className="mt-14 rounded-2xl overflow-hidden">
+            <img src={clientesSatisfeitos.url} alt="Clientes satisfeitos da Eco Sistema Solares" className="w-full h-auto" loading="lazy" />
           </div>
           <div className="mt-12 flex justify-center">
             <CTAButton>Quero Fazer Parte</CTAButton>
