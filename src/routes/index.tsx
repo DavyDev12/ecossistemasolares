@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Sun, TrendingUp, Leaf, ShieldCheck, Wallet, ArrowRight, MessageCircle, Instagram, MapPin, CheckCircle2 } from "lucide-react";
 import logo from "@/assets/logo.png";
 import heroImg from "@/assets/hero-solar.jpg";
+import clientesSatisfeitos from "@/assets/clientes-satisfeitos.png.asset.json";
 
 const WHATSAPP_URL = "https://wa.me/5585986446487?text=Ol%C3%A1%2C%20gostaria%20de%20receber%20um%20or%C3%A7amento%20de%20energia%20solar.";
 
@@ -175,7 +176,29 @@ function LandingPage() {
         </div>
       </section>
 
+      {/* CLIENTES SATISFEITOS */}
+      <section className="py-24 md:py-32 bg-background">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="text-center max-w-2xl mx-auto">
+            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[color:var(--brand-light)]">Satisfação Garantida</span>
+            <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[color:var(--brand-dark)]">
+              Clientes <span className="text-[color:var(--brand-light)]">Satisfeitos</span>
+            </h2>
+            <p className="mt-4 text-base md:text-lg text-muted-foreground font-medium">
+              Centenas de famílias e empresas em todo o Ceará já economizam com a Eco Sistema Solares.
+            </p>
+          </div>
+          <div className="mt-14 rounded-3xl bg-white border border-slate-100 shadow-[var(--shadow-card)] p-6 md:p-10">
+            <img src={clientesSatisfeitos.url} alt="Clientes satisfeitos da Eco Sistema Solares" className="w-full h-auto rounded-2xl" loading="lazy" />
+          </div>
+          <div className="mt-12 flex justify-center">
+            <CTAButton>Quero Fazer Parte</CTAButton>
+          </div>
+        </div>
+      </section>
+
       {/* FINAL CTA */}
+
       <section className="py-24 md:py-32 bg-background">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <img src={logo} alt="Eco Sistema Solares" className="h-28 w-auto mx-auto mb-8" />
