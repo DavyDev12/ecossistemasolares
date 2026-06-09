@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Sun, TrendingUp, Leaf, ShieldCheck, Wallet, ArrowRight, MessageCircle, Instagram, MapPin, CheckCircle2 } from "lucide-react";
 import logo from "@/assets/logo.png";
 import heroImg from "@/assets/hero-solar.jpg";
+import clientesSatisfeitos from "@/assets/clientes-satisfeitos.png.asset.json";
 
 const WHATSAPP_URL = "https://wa.me/5585986446487?text=Ol%C3%A1%2C%20gostaria%20de%20receber%20um%20or%C3%A7amento%20de%20energia%20solar.";
 
